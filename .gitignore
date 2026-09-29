@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+dish_dbt/profiles.yml
+logs/
+dish_dbt/target/
+dish_dbt/dbt_packages/
+dish_dbt/profiles.yml
+logs/
+dish_dbt/target/
+dish_dbt/dbt_packages/
