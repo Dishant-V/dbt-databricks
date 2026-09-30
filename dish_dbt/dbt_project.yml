@@ -33,4 +33,15 @@ models:
   dish_dbt:
     bronze:
       +materialized: table
+      +schema: bronze
 
+    silver:
+      +materialized: table
+      +schema: silver
+
+    gold:
+      +materialized: view
+      +schema: gold
+seeds:
+  dish_dbt:
+    +schema: bronze
