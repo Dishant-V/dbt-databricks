@@ -4,7 +4,7 @@ snapshots:
 
     config:
       schema: gold
-      database: dbt_catalog
+      database: '{{target.catalog}}'
       unique_key: id
       strategy: timestamp
       updated_at: updateDate

@@ -9,6 +9,13 @@ models:
     config:
       materialized: view
 
+  - name: bronze_customers
+    columns:
+      - name: customer_sk
+        data_tests:
+          - not_null
+
+
   - name: bronze_sales
     columns:
       - name: sales_id

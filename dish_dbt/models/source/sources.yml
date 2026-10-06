@@ -3,7 +3,7 @@ version: 2
 
 sources:
   - name: source
-    database: dbt_catalog  
+    database: dbt_catalog
     schema: source
     tables:
       - name: dim_customer

@@ -1,5 +1,6 @@
 select 
-* 
-from {{ source('source', 'bronze_sales') }}
+    * 
+from {{ ref('bronze_sales') }}
 where 
-{{ column_name }} < 0
+    gross_amount < 0
+
