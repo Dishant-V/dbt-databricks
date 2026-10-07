@@ -3,7 +3,7 @@
 [![dbt Core](https://img.shields.io/badge/dbt-Core%20v1.12-orange?style=flat-square&logo=dbt)](https://docs.getdbt.com/)
 [![Databricks](https://img.shields.io/badge/Databricks-Lakehouse-red?style=flat-square&logo=databricks)](https://databricks.com/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square&logo=python)](https://python.org)
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+
 
 A production-grade **dbt (Data Build Tool)** project implementing an end-to-end **Medallion Architecture (Bronze → Silver → Gold)** on **Databricks Delta Lake**. 
 
